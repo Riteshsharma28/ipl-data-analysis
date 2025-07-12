@@ -1,0 +1,158 @@
+[
+    {
+        "Team":"Chennai Super Kings",
+        "MatchesPlayed":237,
+        "Wins":138,
+        "WinPer":58.2278481013,
+        "Trophies":5,
+         "LogoURL" : "static/csk.png "
+       
+    },
+    {
+        "Team":"Deccan Chargers",
+        "MatchesPlayed":75,
+        "Wins":29,
+        "WinPer":38.6666666667,
+        "Trophies":1,
+        "LogoURL" : "static/DeccanChargers.png"
+       
+    },
+    {
+        "Team":"Delhi Capitals",
+        "MatchesPlayed":91,
+        "Wins":48,
+        "WinPer":52.7472527473,
+        "Trophies":0,
+        "LogoURL" : "static/Dc.jpg"
+        
+    },
+    {
+        "Team":"Delhi Daredevils",
+        "MatchesPlayed":159,
+        "Wins":67,
+        "WinPer":42.1383647799,
+        "Trophies":0,
+         "LogoURL" : "static/DD.jpg"
+
+    },
+    {
+        "Team":"Gujarat Lions",
+        "MatchesPlayed":30,
+        "Wins":13,
+        "WinPer":43.3333333333,
+        "Trophies":0,
+         "LogoURL" : "static/Gl.jpg"
+    },
+    {
+        "Team":"Gujarat Titans",
+        "MatchesPlayed":45,
+        "Wins":28,
+        "WinPer":62.2222222222,
+        "Trophies":1,
+         "LogoURL" : "static/Gt.png"
+    },
+    {
+        "Team":"Kings XI Punjab",
+        "MatchesPlayed":190,
+        "Wins":88,
+        "WinPer":46.3157894737,
+        "Trophies":0,
+         "LogoURL" : "static/kxip.jpg"
+    },
+    {
+        "Team":"Kochi Tuskers Kerala",
+        "MatchesPlayed":14,
+        "Wins":6,
+        "WinPer":42.8571428571,
+        "Trophies":0,
+         "LogoURL" : "static/ktk.png"
+    },
+    {
+        "Team":"Kolkata Knight Riders",
+        "MatchesPlayed":251,
+        "Wins":131,
+        "WinPer":52.1912350598,
+        "Trophies":3,
+         "LogoURL" : "static/kkr.jpg"
+    },
+    {
+        "Team":"Lucknow Super Giants",
+        "MatchesPlayed":43,
+        "Wins":24,
+        "WinPer":55.8139534884,
+        "Trophies":0,
+         "LogoURL" : "static/LSG.jpg "
+    },
+    {
+        "Team":"Mumbai Indians",
+        "MatchesPlayed":261,
+        "Wins":144,
+        "WinPer":55.1724137931,
+        "Trophies":5,
+        "LogoURL" : "static/mi.png"
+    },
+    {
+        "Team":"Pune Warriors",
+        "MatchesPlayed":45,
+        "Wins":12,
+        "WinPer":26.6666666667,
+        "Trophies":0,
+         "LogoURL" : "static/punewarriors.jpg"
+    },
+    {
+        "Team":"Punjab Kings",
+        "MatchesPlayed":56,
+        "Wins":24,
+        "WinPer":42.8571428571,
+        "Trophies":0,
+        "LogoURL" : "static/Punjab_Kings.png"
+    },
+    {
+        "Team":"Rajasthan Royals",
+        "MatchesPlayed":219,
+        "Wins":112,
+        "WinPer":51.1415525114,
+        "Trophies":1,
+        "LogoURL" : "static/RR.png"
+    },
+    {
+        "Team":"Rising Pune Supergiant",
+        "MatchesPlayed":16,
+        "Wins":10,
+        "WinPer":62.5,
+        "Trophies":0,
+        "LogoURL" : "static/Risingpunesupergiant.jpg"
+    },
+    {
+        "Team":"Rising Pune Supergiants",
+        "MatchesPlayed":14,
+        "Wins":5,
+        "WinPer":35.7142857143,
+        "Trophies":0,
+        "LogoURL" : "static/Risingpunesupergiant.jpg"
+    },
+    {
+        "Team":"Royal Challengers Bangalore",
+        "MatchesPlayed":237,
+        "Wins":116,
+        "WinPer":48.9451476793,
+        "Trophies":0,
+        "LogoURL" : "static/RCB.png"
+    },
+    {
+        "Team":"Royal Challengers Bengaluru",
+        "MatchesPlayed":15,
+        "Wins":7,
+        "WinPer":46.6666666667,
+        "Trophies":0,
+        "LogoURL" : "static/ROYALCHALLENGERSBENGALURU.jpg"
+    },
+    {
+        "Team":"Sunrisers Hyderabad",
+        "MatchesPlayed":182,
+        "Wins":88,
+        "WinPer":48.3516483516,
+        "Trophies":1,
+        "LogoURL" : "static/Srh.jpg"
+    }
+]

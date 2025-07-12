@@ -1,0 +1,85 @@
+    
+# ✅ Step 1 Function: Add this near the top or below imports
+def head_to_head(team1, team2, matches_file='matches.csv'):
+    df = pd.read_csv(matches_file)
+    h2h_df = df[((df['team1'] == team1) & (df['team2'] == team2)) |
+                ((df['team1'] == team2) & (df['team2'] == team1))]
+
+    total_matches = h2h_df.shape[0]
+    team1_wins = h2h_df[h2h_df['winner'] == team1].shape[0]
+    team2_wins = h2h_df[h2h_df['winner'] == team2].shape[0]
+    no_result = h2h_df[h2h_df['winner'].isnull()].shape[0]
+
+    return {
+        "team1": team1,
+        "team2": team2,
+        "total_matches": total_matches,
+        "team1_wins": team1_wins,
+        "team2_wins": team2_wins,
+        "no_result": no_result
+    }
+
+# Optional: Unique teams for dropdown
+def get_unique_teams(matches_file='matches.csv'):
+    df = pd.read_csv(matches_file)
+    teams = pd.unique(df[['team1', 'team2']].values.ravel())
+    return sorted([team for team in teams if pd.notna(team)])
+
+# ✅ Flask route
+@app.route('/head_to_head', methods=['GET', 'POST'])
+def head_to_head_page():
+    result = None
+    teams = get_unique_teams()
+    if request.method == 'POST':
+        team1 = request.form['team1']
+        team2 = request.form['team2']
+        result = head_to_head(team1, team2)
+    return render_template('head_to_head.html', result=result, teams=teams)
+
+
+
+
+
+
+
+
+
+
+
+
+    .......................................................................
+
+    import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+import joblib
+
+# Load data
+df = pd.read_csv("matches.csv")
+
+# Drop matches with missing winner
+df = df.dropna(subset=['winner'])
+
+# Encode categorical variables
+cols_to_encode = ['team1', 'team2', 'toss_winner', 'toss_decision', 'venue']
+le_dict = {}
+for col in cols_to_encode + ['winner']:
+    le = LabelEncoder()
+    df[col] = le.fit_transform(df[col])
+    le_dict[col] = le
+
+# Features and target
+X = df[['team1', 'team2', 'toss_winner', 'toss_decision', 'venue']]
+y = df['winner']
+
+# Train-test split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Train model
+model = RandomForestClassifier()
+model.fit(X_train, y_train)
+
+# Save model and encoders
+joblib.dump(model, 'win_predictor.pkl')
+joblib.dump(le_dict, 'label_encoders.pkl')

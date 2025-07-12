@@ -1,0 +1,92 @@
+[
+    {
+        "index":524,
+        "bowler":"YS Chahal",
+        "total_runs":4465,
+        "BallsBowled":3469,
+        "wickets":209,
+        "EconomyRate":7.7226866532,
+        "photo_url": "static/yuzi.jpg"
+    },
+    {
+        "index":119,
+        "bowler":"DJ Bravo",
+        "total_runs":4160,
+        "BallsBowled":3064,
+        "wickets":206,
+        "EconomyRate":8.1462140992,
+        "photo_url": "static/DJBravo.jpg"
+    },
+    {
+        "index":446,
+        "bowler":"SP Narine",
+        "total_runs":4490,
+        "BallsBowled":4019,
+        "wickets":200,
+        "EconomyRate":6.70315999,
+        "photo_url": "static/Snarine.jpg"
+    },
+    {
+        "index":348,
+        "bowler":"PP Chawla",
+        "total_runs":5026,
+        "BallsBowled":3817,
+        "wickets":198,
+        "EconomyRate":7.9004453759,
+        "photo_url": "static/Pchawla.jpg"
+    },
+    {
+        "index":71,
+        "bowler":"B Kumar",
+        "total_runs":4730,
+        "BallsBowled":3813,
+        "wickets":195,
+        "EconomyRate":7.4429583006,
+        "photo_url": "static/bhuvi.jpg"
+    },
+    {
+        "index":355,
+        "bowler":"R Ashwin",
+        "total_runs":5172,
+        "BallsBowled":4470,
+        "wickets":195,
+        "EconomyRate":6.9422818792,
+        "photo_url": "static/Rashwin.jpg"
+    },
+    {
+        "index":438,
+        "bowler":"SL Malinga",
+        "total_runs":3176,
+        "BallsBowled":2754,
+        "wickets":186,
+        "EconomyRate":6.9193899782,
+        "photo_url": "static/malinga.jpg"
+    },
+    {
+        "index":193,
+        "bowler":"JJ Bumrah",
+        "total_runs":3573,
+        "BallsBowled":3003,
+        "wickets":182,
+        "EconomyRate":7.1388611389,
+        "photo_url": "static/jassi.jpg"
+    },
+    {
+        "index":8,
+        "bowler":"A Mishra",
+        "total_runs":4043,
+        "BallsBowled":3336,
+        "wickets":182,
+        "EconomyRate":7.2715827338,
+        "photo_url": "static/Amishra.jpg"
+    },
+    {
+        "index":373,
+        "bowler":"RA Jadeja",
+        "total_runs":4769,
+        "BallsBowled":3784,
+        "wickets":168,
+        "EconomyRate":7.5618393235,
+        "photo_url": "static/jaddu.jpg"
+    }
+]

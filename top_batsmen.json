@@ -1,0 +1,102 @@
+[
+    {
+        "index":631,
+        "batter":"V Kohli",
+        "batsman_runs":7995,
+        "total_runs":7995,
+        "is_wicket":218,
+        "BallsFaced":5995,
+        "StrikeRate":133.3611342786,
+        "PhotoURL": "static/vk.png"
+    },
+    {
+        "index":512,
+        "batter":"S Dhawan",
+        "batsman_runs":6736,
+        "total_runs":6736,
+        "is_wicket":193,
+        "BallsFaced":5213,
+        "StrikeRate":129.215422981,
+        "PhotoURL": "static/Sdhawan.jpg"
+    },
+    {
+        "index":477,
+        "batter":"RG Sharma",
+        "batsman_runs":6588,
+        "total_runs":6588,
+        "is_wicket":231,
+        "BallsFaced":4985,
+        "StrikeRate":132.1564694082,
+        "PhotoURL": "static/Rsharma.jpg"
+    },
+    {
+        "index":147,
+        "batter":"DA Warner",
+        "batsman_runs":6537,
+        "total_runs":6537,
+        "is_wicket":164,
+        "BallsFaced":4595,
+        "StrikeRate":142.2633297062,
+        "PhotoURL": "static/Dwarner.jpg"
+    },
+    {
+        "index":546,
+        "batter":"SK Raina",
+        "batsman_runs":5513,
+        "total_runs":5513,
+        "is_wicket":167,
+        "BallsFaced":3967,
+        "StrikeRate":138.9715149987,
+        "PhotoURL": "static/raina.jpg"
+    },
+    {
+        "index":374,
+        "batter":"MS Dhoni",
+        "batsman_runs":5213,
+        "total_runs":5213,
+        "is_wicket":149,
+        "BallsFaced":3715,
+        "StrikeRate":140.3230148048,
+        "PhotoURL": "static/thala.jpg"
+    },
+    {
+        "index":30,
+        "batter":"AB de Villiers",
+        "batsman_runs":5148,
+        "total_runs":5148,
+        "is_wicket":125,
+        "BallsFaced":3344,
+        "StrikeRate":153.9473684211,
+        "PhotoURL": "static/Abd.jpg"
+    },
+    {
+        "index":124,
+        "batter":"CH Gayle",
+        "batsman_runs":4956,
+        "total_runs":4956,
+        "is_wicket":127,
+        "BallsFaced":3256,
+        "StrikeRate":152.2113022113,
+        "PhotoURL": "static/Gayl.jpg"
+    },
+    {
+        "index":501,
+        "batter":"RV Uthappa",
+        "batsman_runs":4942,
+        "total_runs":4942,
+        "is_wicket":182,
+        "BallsFaced":3708,
+        "StrikeRate":133.2793959008,
+        "PhotoURL": "static/Rutthappa.jpg"
+    },
+    {
+        "index":282,
+        "batter":"KD Karthik",
+        "batsman_runs":4824,
+        "total_runs":4824,
+        "is_wicket":187,
+        "BallsFaced":3502,
+        "StrikeRate":137.7498572244,
+        "PhotoURL": "static/DK.jpg"
+    }
+]
